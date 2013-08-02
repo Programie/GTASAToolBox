@@ -1,0 +1,32 @@
+html,body
+{
+	margin:0px;
+	background-color:#000000;
+	color:#C0C0C0;
+	font-family:monospace;
+}
+#output_div
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:25px;
+	overflow:auto;
+}
+#input_div
+{
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	height:25px;
+	overflow:hidden;
+}
+#input
+{
+	width:100%;
+	background:transparent;
+	color:#C0C0C0;
+	border:none;
+}

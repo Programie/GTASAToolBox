@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 4.50 (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="GTA San Andreas ToolBox v3"/>
+    <buildwindow autoclose="1"/>
+  </section>
+  <section name="data">
+    <explorer view="..\..\..\Codes\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2010-11-21 14:28" user="Programie" host="PROGRAMIE-PC"/>
+  </section>
+  <section name="files">
+    <file name="CheatProcessor.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="566aad80037fa886ed136c04e70bae67"/>
+    </file>
+    <file name="ConfigManager.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="38b6bf78baacd60fd3b5f1cbc3265c77"/>
+    </file>
+    <file name="Console.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0"/>
+      <fingerprint md5="da7802c7afa6fc565debce3e8f99e42a"/>
+    </file>
+    <file name="LanguageEditor.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0"/>
+      <fingerprint md5="36c8f270585b75f3477a3bcc9c06fda0"/>
+    </file>
+    <file name="PathUpdater.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0"/>
+      <fingerprint md5="29524366b9926d0f6b9d59c2ed9b3df7"/>
+    </file>
+    <file name="Setup.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="a3a34dcbfc3068f92adee763060c8d3f"/>
+    </file>
+    <file name="Uninstaller.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0"/>
+      <fingerprint md5="9ed9c7d97d6573baaaf25ae20e5a4e24"/>
+    </file>
+    <file name="Updater.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="d3a24610d805451b18a588d9dbf63b0e"/>
+    </file>
+    <file name="WebInterface.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0"/>
+      <fingerprint md5="eb8ca59332387ce1de4f3618ab56cd4b"/>
+    </file>
+    <file name="RegFix.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0"/>
+      <fingerprint md5="d5c015d0278f936108070718dcdc078f"/>
+    </file>
+    <file name="CheatProcessor_Dll.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0"/>
+      <fingerprint md5="c8a2c303affa044635c7dbcefd5552d2"/>
+    </file>
+    <file name="Includes\Common.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="2401938d4f24cb0c43e573b927fe1074"/>
+    </file>
+    <file name="Includes\SetCheat.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="1d136c4482e7079ebe33992bfd00ccdf"/>
+    </file>
+    <file name="PluginExample.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="5e5b781d538bde5b84008a37c90a710d"/>
+    </file>
+    <file name="PluginInfos.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1"/>
+      <fingerprint md5="911dc76f401212ce5f7f474eb0631b18"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="CheatProcessor" enabled="1" default="0">
+      <inputfile value="CheatProcessor.pb"/>
+      <outputfile value="..\CheatProcessor.exe"/>
+      <executable value="..\CheatProcessor.exe"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">
+        Resources\GTATB.ico
+      </icon>
+      <compilecount enable="1" value="54"/>
+      <buildcount enable="1" value="29"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox CheatProcessor"/>
+        <field7 value="GTA San Andreas ToolBox CheatProcessor"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="ConfigManager" enabled="1" default="0">
+      <inputfile value="ConfigManager.pb"/>
+      <outputfile value="..\ConfigManager.exe"/>
+      <executable value="..\ConfigManager.exe"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">
+        Resources\ConfigManager.ico
+      </icon>
+      <compilecount enable="1" value="171"/>
+      <buildcount enable="1" value="37"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox ConfigManager"/>
+        <field7 value="GTA San Andreas ToolBox ConfigManager"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="LanguageEditor" enabled="1" default="0">
+      <inputfile value="LanguageEditor.pb"/>
+      <outputfile value="..\LanguageEditor.exe"/>
+      <executable value="..\LanguageEditor.exe"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">
+        Resources\LanguageEditor.ico
+      </icon>
+      <compilecount enable="1" value="25"/>
+      <buildcount enable="1" value="25"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox LanguageEditor"/>
+        <field7 value="GTA San Andreas ToolBox LanguageEditor"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="Uninstaller" enabled="1" default="0">
+      <inputfile value="Uninstaller.pb"/>
+      <outputfile value="..\Uninstall.exe"/>
+      <executable value="..\Uninstall.exe"/>
+      <options xpskin="1" admin="1" debug="1"/>
+      <icon enable="1">
+        Resources\Uninstall.ico
+      </icon>
+      <compilecount enable="1" value="17"/>
+      <buildcount enable="1" value="17"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox Uninstaller"/>
+        <field7 value="GTA San Andreas ToolBox Uninstaller"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="Updater" enabled="1" default="0">
+      <inputfile value="Updater.pb"/>
+      <outputfile value="..\Updater.exe"/>
+      <executable value="..\Updater.exe"/>
+      <options xpskin="1" admin="1" debug="1"/>
+      <icon enable="1">
+        Resources\Updater.ico
+      </icon>
+      <compilecount enable="1" value="26"/>
+      <buildcount enable="1" value="21"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox Updater"/>
+        <field7 value="GTA San Andreas ToolBox Updater"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="Console" enabled="1" default="0">
+      <inputfile value="Console.pb"/>
+      <outputfile value="..\Console.exe"/>
+      <executable value="..\Console.exe"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">
+        Resources\Console.ico
+      </icon>
+      <compilecount enable="1" value="33"/>
+      <buildcount enable="1" value="26"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox Console"/>
+        <field7 value="GTA San Andreas ToolBox Console"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="WebInterface" enabled="1" default="0">
+      <inputfile value="WebInterface.pb"/>
+      <outputfile value="..\WebInterface.exe"/>
+      <executable value="..\WebInterface.exe"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">
+        Resources\WebInterface.ico
+      </icon>
+      <compilecount enable="1" value="24"/>
+      <buildcount enable="1" value="24"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox WebInterface"/>
+        <field7 value="GTA San Andreas ToolBox WebInterface"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="PathUpdater" enabled="1" default="0">
+      <inputfile value="PathUpdater.pb"/>
+      <outputfile value="..\PathUpdater.exe"/>
+      <executable value="..\PathUpdater.exe"/>
+      <options xpskin="1" admin="1" debug="1"/>
+      <icon enable="1">
+        Resources\PathUpdater.ico
+      </icon>
+      <compilecount enable="1" value="24"/>
+      <buildcount enable="1" value="24"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox PathUpdater"/>
+        <field7 value="GTA San Andreas ToolBox PathUpdater"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="RegFix" enabled="1" default="0">
+      <inputfile value="RegFix.pb"/>
+      <outputfile value="..\RegFix.exe"/>
+      <executable value="..\RegFix.exe"/>
+      <options xpskin="1" admin="1" debug="1"/>
+      <icon enable="1">
+        Resources\RegFix.ico
+      </icon>
+      <compilecount enable="1" value="16"/>
+      <buildcount enable="1" value="16"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox RegFix"/>
+        <field7 value="GTA San Andreas ToolBox RegFix"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="Setup" enabled="1" default="0">
+      <inputfile value="Setup.pb"/>
+      <outputfile value="..\Setup.exe"/>
+      <executable value="..\Setup.exe"/>
+      <options xpskin="1" admin="1" debug="1"/>
+      <icon enable="1">
+        Resources\Setup.ico
+      </icon>
+      <compilecount enable="1" value="27"/>
+      <buildcount enable="1" value="24"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox"/>
+        <field7 value="GTA San Andreas ToolBox"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="PluginExample" enabled="1" default="1">
+      <inputfile value="PluginExample.pb"/>
+      <outputfile value="..\CheatPlugins\Example.dll"/>
+      <executable value="..\CheatPlugins\Example.dll"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">
+        Resources\GTATB.ico
+      </icon>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="32"/>
+      <buildcount enable="1" value="30"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox PluginExample"/>
+        <field7 value="GTA San Andreas ToolBox PluginExample"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_DLL"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+    <target name="PluginInfos" enabled="1" default="0">
+      <inputfile value="PluginInfos.pb"/>
+      <outputfile value="..\PluginInfos.exe"/>
+      <executable value="..\PluginInfos.exe"/>
+      <options xpskin="1" admin="1" debug="1"/>
+      <icon enable="1">
+        Resources\PluginInfos.ico
+      </icon>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="20"/>
+      <buildcount enable="1" value="13"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="SelfCoders"/>
+        <field3 value="GTA San Andreas ToolBox"/>
+        <field4 value="3.0"/>
+        <field5 value="1.0.0.0"/>
+        <field6 value="GTA San Andreas ToolBox PluginInfos"/>
+        <field7 value="GTA San Andreas ToolBox PluginInfos"/>
+        <field8 value="%EXECUTABLE"/>
+        <field13 value="programie@selfcoders.com"/>
+        <field14 value="http://www.selfcoders.com"/>
+        <field15 value="VOS_NT_WINDOWS32"/>
+        <field16 value="VFT_APP"/>
+        <field18 value="Build"/>
+        <field19 value="Compile Time"/>
+        <field21 value="%BUILDCOUNT"/>
+        <field22 value="%yyyy/%mm/%dd %hh:%ii:%ss"/>
+      </versioninfo>
+    </target>
+  </section>
+</project>

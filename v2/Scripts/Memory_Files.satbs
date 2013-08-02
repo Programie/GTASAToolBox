@@ -1,0 +1,25 @@
+0012: $File$	OPEN	Wähle eine Textdatei aus.	Text.txt	Textdokument|*.txt	0
+ 0003: $File$	EQUAL		Quit
+  0014: $IsFile$	$File$
+  0003: $IsFile$	EQUAL	0	NoFile
+ 000F: $Text$	$File$
+ 0001: 	Information	Inhalt von $File$:\n\n$Text$
+ 0001: $Ask$	Datei speichern	Möchtest du die Datei speichern?	MB_ICONQUESTION|MB_YESNO
+  0003: $Ask$	EQUAL	6	Save
+  0003: $Ask$	NOT	6	Quit
+ 0004: Save
+  0012: $Save$	SAVE	Wähle die Zieldatei aus.	Neuer Text.txt	Alle Dateien|*.*	0
+   0003: $Save$	EQUAL		Quit
+    0013: $Saved$	$Save$	STRING	$Text$
+    0003: $Saved$	EQUAL	1	OK
+    0003: $Saved$	NOT	1	Error
+   0009: Quit
+0004: OK
+ 0001: 	Information	Datei erfolgreich gespeichert!\n\nDatei: $Save$	MB_ICONINFORMATION
+0009: Quit
+0004: Error
+ 0001: 	Fehler	Die datei konnte nicht gespeichert werden!\n\nDatei: $Save$	MB_ICONERROR
+0009: Quit
+0004: NoFile
+ 0001: 	Fehler	Die Datei '$File$' wurde nicht gefunden!	MB_ICONERROR
+0004: Quit

@@ -1,0 +1,28 @@
+0006: VK_A	65
+0006: VK_H	72
+0006: VK_Q	81
+
+0009: Help
+
+0004: Loop
+001D: $StartLine$
+0016: 10
+0015: $A$	VK_A	Key_A
+0015: $H$	VK_H	Help
+0015: $Q$	VK_Q	Key_Q
+0017: $StartLine$
+
+0004: Key_A
+0001: 	Key A	A was pressed!
+0009: Loop
+
+0004: Key_Q
+0001: $Quit$	Quit	Quit script?	MB_YESNO|MB_ICONQUESTION
+0003: $Quit$	EQUAL	6	Quit
+0009: Loop
+
+0004: Help
+0001: 	Keyboardtestscript	This is a keyboardtestscript!\nPress one of the following keys:\n\nA - Show a testmessage\nH - Show this message\nQ - Quit script\n\nPress OK to continue.	MB_ICONINFORMATION
+0009: Loop
+
+0004: Quit

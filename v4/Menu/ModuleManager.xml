@@ -1,0 +1,14 @@
+<menu>
+	<class name="availablemodules">
+		<menuitem name="install" default="1">
+			<text language="en">Install</text>
+			<text language="de">Installieren</text>
+		</menuitem>
+	</class>
+	<class name="installedmodules">
+		<menuitem name="remove" default="1">
+			<text language="en">Remove</text>
+			<text language="de">Entfernen</text>
+		</menuitem>
+	</class>
+</menu>

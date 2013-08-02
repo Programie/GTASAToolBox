@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<category name="Controller Setup">
+		<option name="Controller Configuration" offset="B3A" type="byte">
+			<value value="0">Mouse+Keys</value>
+			<value value="1">Joypad</value>
+		</option>
+		
+		<category name="Joypad Settings">
+			<option name="Joypad Invert Left Stick X" offset="B44" type="byte">
+				<value value="0">Off</value>
+				<value value="1">On</value>
+			</option>
+		</category>
+		
+		<category name="Mouse Settings">
+			<option name="Mouse Sensitivity" offset="B14" type="long">N/A</option>
+			<option name="Invert Mouse Vertically" offset="B18" type="byte">
+				<value value="0">On</value>
+				<value value="1">Off</value>
+			</option>
+			<option name="Steer With Mouse" offset="B19" type="byte">
+				<value value="0">Off</value>
+				<value value="1">On</value>
+			</option>
+			<option name="Fly With Mouse" offset="B1A" type="byte">
+				<value value="0">Off</value>
+				<value value="1">On</value>
+			</option>
+		</category>
+	</category>
+	
+	<category name="Audio Setup">
+		<option name="Radio" offset="B1C" type="byte">
+			<value value="0">Muted</value>
+			<value value="64">Full Volume</value>
+		</option>
+		<option name="SFX" offset="B1B" type="byte">
+			<value value="0">Muted</value>
+			<value value="64">Full Volume</value>
+		</option>
+		<option name="Radio EQ" offset="B1F" type="byte">
+			<value value="0">Off</value>
+			<value value="1">On</value>
+		</option>
+		<option name="Radio Auto-Tune" offset="B1E" type="byte">
+			<value value="0">Off</value>
+			<value value="1">On</value>
+		</option>
+		
+		<category name="User Track Options">
+			<option name="Radio Play Mode" offset="B41" type="byte">
+				<value value="0">Radio</value>
+				<value value="1">Random</value>
+				<value value="2">Sequential</value>
+			</option>
+			<option name="Automatic Media Scan" offset="B25" type="byte">
+				<value value="0">Off</value>
+				<value value="1">On</value>
+			</option>
+		</category>
+		
+		<option name="Radio Station" offset="B1D" type="byte">
+			<value value="1">Playback FM</value>
+			<value value="2">K Rose</value>
+			<value value="3">K-DST</value>
+			<value value="4">Bounce FM</value>
+			<value value="5">SF-UR</value>
+			<value value="6">Radio Los Santos</value>
+			<value value="7">Radio X</value>
+			<value value="8">CSR 103.9</value>
+			<value value="9">K-JAH West</value>
+			<value value="10">Master Sounds 98.3</value>
+			<value value="11">WCTR Talk Radio</value>
+			<value value="12">User Track Player</value>
+			<value value="13">Radio Off</value>
+		</option>
+	</category>
+	
+	<category name="Display Setup">
+		<option name="Brightness" offset="B20" type="word"></option>
+		<option name="Legend" offset="B4A" type="byte">
+			<value value="0">Off</value>
+			<value value="1">On</value>
+		</option>
+		<option name="Radar Mode" offset="B3D" type="byte">
+			<value value="0">Maps + Blips</value>
+			<value value="1">Blips Only</value>
+			<value value="2">Off</value>
+		</option>
+		<option name="HUD Mode" offset="B3C" type="byte">
+			<value value="0">Off</value>
+			<value value="1">On</value>
+		</option>
+		<option name="Subtitles" offset="B33" type="byte">
+			<value value="0">Off</value>
+			<value value="1">On</value>
+		</option>
+		<option name="Store Gallery Photos" offset="B42" type="byte">
+			<value value="0">Off</value>
+			<value value="1">On</value>
+		</option>
+		
+		<category name="Advanced">
+			<option name="Draw Distance" offset="B30" type="word"></option>
+			<option name="Frame Limiter" offset="B35" type="byte">
+				<value value="0">Off</value>
+				<value value="1">On</value>
+			</option>
+			<option name="Wide Screen" offset="B34" type="byte">
+				<value value="0">Off</value>
+				<value value="1">On</value>
+			</option>
+			<option name="Visual FX Quality" offset="B2A" type="byte">
+				<value value="0">Low</value>
+				<value value="1">Medium</value>
+				<value value="2">High</value>
+				<value value="3">Very High</value>
+			</option>
+			<option name="Mip Mapping" offset="B24" type="byte">
+				<value value="0">Off</value>
+				<value value="1">On</value>
+			</option>
+			<option name="Anti Aliasing" offset="B26" type="byte">
+				<value value="1">Off</value>
+				<value value="2">1</value>
+				<value value="3">2</value>
+				<value value="4">3</value>
+			</option>
+			<option name="Resolution" offset="B36" type="byte">
+				<value value="1">640 x 480, 16 Bit</value>
+				<value value="2">Unknown (2)</value>
+				<value value="3">720 x 576, 16 Bit</value>
+				<value value="4">800 x 600, 16 Bit</value>
+				<value value="5">Unknown (5)</value>
+				<value value="6">Unknown (6)</value>
+				<value value="7">1024 x 768, 16 Bit</value>
+				<value value="8">640 x 480, 32 Bit</value>
+				<value value="9">Unknown (9)</value>
+				<value value="10">720 x 576, 32 Bit</value>
+				<value value="11">800 x 600, 32 Bit</value>
+				<value value="12">Unknown (C)</value>
+				<value value="13">Unknown (D)</value>
+				<value value="14">1024 x 768, 32 Bit</value>
+				<value value="15">Unknown (F)</value>
+				<value value="16">1280 x 800, 32 Bit</value>
+				<value value="17">Unknown (11)</value>
+				<value value="18">Unknown (12)</value>
+				<value value="19">Unknown (13)</value>
+				<value value="20">Unknown (14)</value>
+				<value value="21">Unknown (15)</value>
+				<value value="22">Unknown (16)</value>
+				<value value="23">Unknown (17)</value>
+				<value value="24">Unknown (18)</value>
+				<value value="25">Unknown (19)</value>
+				<value value="26">Unknown (1A)</value>
+				<value value="27">1280 x 1024, 32 Bit</value>
+			</option>
+		</category>
+	</category>
+	
+	<option name="Language" offset="B3B" type="byte">
+		<value value="0">English</value>
+		<value value="4">Spanish</value>
+	</option>
+</root>

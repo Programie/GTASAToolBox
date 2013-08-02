@@ -1,0 +1,30 @@
+[Info]
+Name_English = German
+Name_Translated = Deutsch
+[Translation]
+File = Datei
+Settings = Einstellungen
+Quit = Beenden
+Modules = Module
+Help = Hilfe
+Check for updates = Nach Updates suchen
+About = Über
+Parameters = Parameter
+Description = Beschreibung
+Shortcut = Tastenkombination
+Add cheat = Cheat hinzufügen
+Browse = Durchsuchen
+Clear = Löschen
+Add = Hinzufügen
+Available cheats = Verfügbare Cheats
+Information = Informationen
+Not available = Nicht verfügbar
+Edit cheat = Cheat bearbeiten
+Apply = Übernehmen
+Available modules = Verfügbare Module
+Installed modules = Installierte Module
+Author = Autor
+Cheat list = Cheatliste
+General = Allgemein
+Language = Sprache
+Module '%1' is missing!\n\nPlease reinstall the module and try again. = Modul '%1' nicht installiert!\n\nBitte installiere das Modul und versuche es erneut.

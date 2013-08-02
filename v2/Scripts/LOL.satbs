@@ -1,0 +1,47 @@
+0001: 	BATCH	Yo, hi des isch so n batch-öffna.\nklick einfach uf ok um die bat zu öffne.
+000A: cmd.exe	/C a:\lol.bat
+0001: 	BATCH	gug mol, do isch e konsol\ndrüg in da konsol ne taschd und die beendet sich wida
+0001: 	BATCH	des isch voll eifach oda? naja ich geh dan mol widaa weil ich wold noch was oneres mache als do nur so n script zu tibbe
+0001: $Continue$	BATCH	willsch weida mache?	MB_YESNO|MB_ICONQAUESTION
+0003: $Continue$	EQUAL	6	Continue
+0003: $Continue$	NOT	6	Ask
+0004: Ask
+0002: $Answer$	Warum	Warum wilsch net weida mache?	Sag mas!
+0001: 	BATCH	Aso, du wilsch halt des mache:\n$Answer$\njo von mir aus ;)
+0009: Quit
+0004: Continue
+0001: 	BATCH	Jo do sag ich erschd mol dange das du net ufhöre woldsch\naba was könne ma jetzt do noch mache?\n\nmol überlege, villeicht fallt ma was ei
+0001: $Stop$	BATCH	ne du ma fallt nix ei hersch halt uf, k?	MB_YESNO
+0003: $Stop$	EQUAL	6	Quit
+0003: $Stop$	NOT	6	NoQuit
+0004: NoQuit
+0001: 	BATCH	Oh mensch ich will nimma weida mache, herma uff
+0001: $Stop$	BATCH	k?	MB_YESNO
+0003: $Stop$	EQUAL	6	Quit
+0003: $Stop$	NOT	6	NoQuit
+0004: Quit
+0001: 	BATCH	ok, dan tschüs bis irgend wen mol wida\nvielleicht sehe ma uns mol wida ;)
+0001: $k$	BATCH	k?	MB_YESNO
+0003: $k$	EQUAL	6	jo
+0003: $k$	NOT	6	ne
+0004: jo
+0001: 	BATCH	jo ich freu mich scho druff\nciao!
+0009: TotalQuit
+0004: ne
+0001: 	BATCH	GUT! DANN HALT NET!!!\nABER GLAUB NET DAS DU NOMOL WEGE IRGENDWAS ZUMA KOMME BRAUCHSCH!	MB_ICONERROR
+0001: $Del$	BATCH	soll ich mich lösche? oda was wilsch? ich will nämlich weg von dir!!! :'(	MB_YESNO
+0003: $Del$	EQUAL	6	Delete
+0003: $Del$	NOT	6	NoDelete
+0004: Delete
+0001: 	BATCH	will net weg xD
+0003: $Try$	EQUAL	1	Egal
+0001: $Again$	BATCH	soll ich´s nomol probiere?	MB_YESNO
+0003: $Again$	NOT	6	TotalQuit
+0006: $Try$	1
+0009: Delete
+0004: Egal
+0001: 	BATCH	Scheiß druff
+0009: TotalQuit
+0004: NoDelete
+0009: Continue
+0004: TotalQuit

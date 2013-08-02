@@ -1,0 +1,29 @@
+0001: 	Sounds	This little script will show you the command to play sounds.\nYou can play system sounds like the Windows shutdown sound or just a normal wave-file.\n\nOpcode: 0034\nParameter 1: Soundfile or Systemevent\nParameter 2: hMod-Parameter\nParameter 3: Flags	MB_ICONINFORMATION
+0001: $Play$	Sounds	Now we want to play a few system sounds. ;)\n\nOK?	MB_YESNO
+0003: $Play$	NOT	6	OtherSounds
+0004: PlaySystemSounds
+0034: SystemAsterisk
+0034: SystemExclamation
+0034: SystemExit
+0034: SystemHand
+0034: SystemQuestion
+0034: SystemStart
+0001: $Hear$	Sounds	Did you hear them?	MB_YESNO|MB_ICONQUESTION
+0003: $Hear$	EQUAL	6	AllOK
+0001: $HearAgain$	Sound	Do you want to play the sounds again?	MB_YESNO|MB_ICONQUESTION
+0003: $HearAgain$	EQUAL	6	PlaySystemSounds
+0004: OtherSounds
+0001: $PlayOther$	Sounds	Do you want to play another soundfile?	MB_YESNO|MB_ICONQUESTION
+0003: $PlayOther$	EQUAL	6	PlayOther
+0009: AllOK
+0004: PlayOther
+0012: $File$	OPEN	Select a soundfile	Sound.wav	Wave-Sound|*.wav	0
+0004: PlayCustom
+0034: $File$
+0001: $Hear$	Sounds	Did you hear it?	MB_YESNO|MB_ICONQUESTION
+0003: $Hear$	EQUAL	6	OtherSounds
+0001: $HearAgain$	Sounds	Do you want to play the sound again?	MB_YESNO|MB_ICONQUESTION
+0003: $HearAgain$	EQUAL	6	PlayCustom
+0009: OtherSounds
+0004: AllOK
+0001: 	Sounds	OK, the program will quit now.

@@ -1,0 +1,7 @@
+0026: $File$
+000F: $Path$	$File$
+0027: $Dll$	D:\Projects\PureBasic Tools\Plugins\DesktopEx.pbtp
+0028: 	$Dll$	SetPluginPath	D:\Projects\GTA San Andreas ToolBox\Scripts\
+0028: 	$Dll$	RefreshWallpaperList	$Path$?/noinfo
+0028: 	$Dll$	ChangeWallpaper	1
+0029: $Dll$

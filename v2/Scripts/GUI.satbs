@@ -1,0 +1,217 @@
+0006: $Event_CloseWindow$	16
+0006: $Event_Gadget$	13100
+0006: $Event_Menu$	12101
+0006: $Event_MoveWindow$	3
+0006: $Event_SizeWindow$	5
+0006: $RemTimes$	10
+0006: $File$	Script.satbs
+0006: $WaitTime$	1
+0006: $CounterRunning$	0
+0006: $CounterRunning_SkippedLoops$	0
+
+0018: $Window$	100	100	530	300	GUI and value example	MINIMIZEGADGET|MAXIMIZEGADGET|SIZEGADGET
+001B: BUTTON	0	0	0	5	5	C
+001B: BUTTON	1	10	10	100	30	Open script
+001B: BUTTON	2	120	10	100	30	Quit
+001B: BUTTON	8	10	50	120	20	Force error
+001B: BUTTON	9	140	50	120	20	App crash
+001B: BUTTON	11	270	50	120	20	Wait a while ($WaitTime$ sec)
+001B: BUTTON	12	400	50	120	20	Start counter
+0009: RandomButton
+
+0004: Loop
+001D: $Repeat$
+0016: 5
+001A: $Event$
+0003: $Event$	EQUAL	$Event_Gadget$	Event_Gadget
+0003: $Event$	EQUAL	$Event_SizeWindow$	Event_SizeWindow
+0003: $Event$	EQUAL	$Event_CloseWindow$	QuitBlocked
+0006: $CounterRunning_SkippedLoops$	$CounterRunning_SkippedLoops$+1
+0003: $CounterRunning$	NOT	0	UpdateCounter
+0017: $Repeat$
+
+0004: UpdateCounter
+0003: $CounterRunning_SkippedLoops$	EQUAL	200	UpdateCounter2
+0009: Loop
+
+0004: UpdateCounter2
+0006: $CounterRunning_SkippedLoops$	0
+0006: $CounterRunning$	$CounterRunning$+1
+0023: 12	Stop counter ($CounterRunning$)
+0009: Loop
+
+0004: Event_SizeWindow
+0020: $WinWidth$	$Window$	WIDTH
+0020: $WinHeight$	$Window$	HEIGHT
+0006: $Width$	$WinWidth$/2-15
+0006: $X$	$Width$+20
+0006: $Y1$	$WinHeight$-60
+0006: $Y2$	$Y1$+30
+001F: 1	10	10	$Width$	30
+001F: 2	$X$	10	$Width$	30
+001F: 3	10	$Y1$	210	20
+001F: 4	10	$Y2$	100	20
+001F: 5	120	$Y2$	100	20
+001F: 6	230	$Y2$	100	20
+001F: 7	340	$Y2$	100	20
+001F: 10	220	$Y1$	150	20
+0009: Loop
+
+0004: Event_Gadget
+001E: $GadgetEvent$	GADGET
+0003: $GadgetEvent$	EQUAL	0	Event_Cheat
+0003: $GadgetEvent$	EQUAL	1	Event_OpenScript
+0003: $GadgetEvent$	EQUAL	2	Event_QuitButton
+0003: $GadgetEvent$	EQUAL	4	Event_Check1
+0003: $GadgetEvent$	EQUAL	5	Event_Check2
+0003: $GadgetEvent$	EQUAL	6	Event_Check3
+0003: $GadgetEvent$	EQUAL	7	Event_Check4
+0003: $GadgetEvent$	EQUAL	8	Event_ForceError
+0003: $GadgetEvent$	EQUAL	9	Event_AppCrash
+0003: $GadgetEvent$	EQUAL	11	Event_Wait
+0003: $GadgetEvent$	EQUAL	12	Event_Counter
+0009: Loop
+
+0004: QuitBlocked
+0003: $Unlocked$	EQUAL	1	Quit
+0009: BlockMsg
+
+0004: Event_Cheat
+0003: $Cheat$	EQUAL	1	Cheat_Deactivate
+0003: $Cheat$	NOT	1	Cheat_Activate
+0009: Loop
+
+0004: Cheat_Activate
+0001: 	Info	Cheat activated
+0006: $Unlocked$	1
+0006: $Times$	10
+0006: $RemTimes$	0
+0006: $Cheat$	1
+0009: Unlock
+
+0004: Cheat_Deactivate
+0001: 	Info	Cheat deactivated
+0006: $Unlocked$	0
+0006: $Times$	0
+0006: $RemTimes$	10
+0006: $Cheat$	0
+0009: Loop
+
+0004: Event_OpenScript
+0003: $Unlocked$	EQUAL	1	OpenScript
+0009: BlockMsg
+
+0004: Event_QuitButton
+0001: 	Error	Sorry, but this button is currently corrupted!	MB_ICONERROR
+0009: Loop
+
+0004: Event_Check1
+0003: 1	EQUAL	$RightButton$	Event_RightButton
+0009: Event_WrongButton
+0009: Loop
+
+0004: Event_Check2
+0003: 2	EQUAL	$RightButton$	Event_RightButton
+0009: Event_WrongButton
+0009: Loop
+
+0004: Event_Check3
+0003: 3	EQUAL	$RightButton$	Event_RightButton
+0009: Event_WrongButton
+0009: Loop
+
+0004: Event_Check4
+0003: 4	EQUAL	$RightButton$	Event_RightButton
+0009: Event_WrongButton
+0009: Loop
+
+0004: Event_RightButton
+0006: $Cheat$	0
+0003: $RemTimes$	EQUAL	0	Unlock
+0006: $Times$	$Times$+1
+0006: $RemTimes$	10-$Times$
+0003: $Times$	EQUAL	10	Unlock
+0009: RandomButton
+
+0004: BlockMsg
+0001: 	Error	This feature is blocked!\nBut you can activate it!\nA little tip: Try the activation buttons on the bottom (Press 1 - 4 in the right order).	MB_ICONERROR
+0009: Loop
+
+0004: Unlock
+0001: 	Info	You have something unlocked!	MB:ICONINFORMATION
+0006: $Unlocked$	1
+0009: RandomButton
+
+0004: Event_WrongButton
+0001: 	Wrong button	This is the wrong button! :(\nTry again!	MB_ICONERROR
+0006: $Unlocked$	0
+0006: $Times$	0
+0006: $RemTimes$	10
+0006: $Cheat$	0
+0009: RandomButton
+
+0004: Event_ForceError
+0025: This is a custom error!\nThe program will quit now!
+0009: Loop
+
+0004: Event_AppCrash
+0001: $DoCrash$	Crash	Are you sure?	MB_YESNO|MB_ICONWARNING
+0003: $DoCrash$	NOT	6	Loop
+0030: 0	Crash
+0009: Loop
+
+0004: Event_Wait
+0006: $WaitTimeMS$	$WaitTime$*1000
+0006: $WaitTime$	$WaitTime$+1
+0006: $CurrentWaitTime$	0
+0009: WaitLoop
+0004: WaitReturn
+0023: 11	Wait a while ($WaitTime$ sec)
+0009: Loop
+
+0004: WaitLoop
+0003: $CurrentWaitTime$	EQUAL	$WaitTimeMS$	WaitReturn
+0016: 1
+0006: $CurrentWaitTime$	$CurrentWaitTime$+1
+0009: WaitLoop
+
+0004: Event_Counter
+0003: $CounterRunning$	NOT	0	StopCounter
+0006: $CounterRunning$	1
+0006: $CounterRunning_SkippedLoops$	0
+0023: 12	Stop counter (1)
+0009: Loop
+
+0004: StopCounter
+0006: $CounterRunning$	0
+0023: 12	Start counter
+0009: Loop
+
+0004: RandomButton
+0021: $RightButton$	1	4
+0004: MakeButtons
+001B: TEXT	3	10	240	210	20	Press Button $RightButton$
+001B: BUTTON	4	10	270	100	20	1
+001B: BUTTON	5	120	270	100	20	2
+001B: BUTTON	6	230	270	100	20	3
+001B: BUTTON	7	340	270	100	20	4
+001B: TEXT	10	220	240	150	20	Remaining: $RemTimes$
+0009: Event_SizeWindow
+
+0004: OpenScript
+0012: $File$	OPEN	Select a San Andreas ToolBox Script	$File$	San Andreas ToolBox Script|*.satbs	0
+0003: $File$	NOT		OpenScript2
+0009: Loop
+
+0004: OpenScript2
+0014: $IsFile$	$File$
+0003: $IsFile$	EQUAL	1	OpenScript3
+0001: 	Error	The file '$File$' was not found!	MB_ICONERROR
+0009: OpenScript
+
+0004: OpenScript3
+000A: $File$
+0009: Loop
+
+0004: Quit
+0001:	Information	Thanks for using this little script!\n\nMy home page: http://www.selfcoders.com	MB_ICONINFORMATION

@@ -1,0 +1,34 @@
+CLEARCHEATEDSTATE - "Gecheatet"-Status zurücksetzen
+DISABLECHEATS - Alle internen Cheats von GTA San Andreas deaktivieren
+ENGINESTATE - Motor an/aus schalten
+FLIPVEHICLE - Fahrzeug drehen (180°)
+FREEZEGAME
+FREEZESTARS - Wanted-Sterne einfrieren
+GELASTVEHICLE - Letztes Fahrzeug zum Spieler teleportieren
+GOTOLASTVEHICLE - Zum letzten Fahrzeug teleportieren
+GOTOTARGETPLACE - Zum Zielort teleportieren
+GOTOTARGETPLACEEX - Automatisch zum Zielort teleportieren wenn er geändert wird
+GRAVITY[Value] - Gravitation auf 0.Value setzen (Beispiel: GRAVITY123 setzt die Gravitation auf 0.123)
+HIDEGAME - Spiel verstecken
+HOOVERCAR - Autos können schwimmen
+INFINITEHEALTH - Unverwundbar (CJ + aktuelles Fahrzeug)
+INFINITENITRO - Endlos Nitro
+LASTPLACE - Letzter Teleportvorgang rückgängig machen
+LIFEINWATER - Unter Wasser laufen
+LOADPLACE[X] - Ort "X" laden
+LOADVEHICLE[X] - Fahrzeug "X" laden
+MAKESCREENSHOT - Bildschirmfoto erstellen
+RANDOMVEHICLE - Zufälliges Fahrzeug spawnen
+RANDOMWEATHER - Zufälliges Wetter
+SAVEPLACE[X] - Ort "X" speichern
+SAVEVEHICLE[X] - Fahrzeug "X" speichern
+SCROLLVEHICLE (Comming soon...) - Fahrzeuge durchschalten (Bild hoch/runter)
+SETCASH[$] - Geld setzen
+SETTIME[hhmm] - Uhrzeit ändern (In der Form "hhmm")
+SETWANTEDLEVEL[X] - Wanted-Sterne ändern (X muss ein Wert von 0 bis 6 sein)
+SETWEATHER[X] - Wetter ändern (X muss ein Wert von 0 bis 45 sein)
+SHOWCURRENTTIME - Spieluhr mit der Computeruhr synchronisieren
+SHOWVEHICLEINFO - Speedometer und Fahrzeugsschaden anzeigen
+SPAWNVEHICLE[X] - Fahrzeug mit der VehicleID "X" spawnen (Ohne VehicleID wird das direkte spawnen mit den Nummerntasten aktiviert)
+SPAWNWEAPON[X] - Fahrzeug mit der WeaponID "X" spawnen
+TIMER[hhmm] - Timer starten (Es wird ein Signalton um die angegebene Uhrzeit "hh:mm" ausgegeben)

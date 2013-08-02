@@ -1,0 +1,180 @@
+html,body
+{
+	margin:0px;
+	font-family:Verdana;
+	font-size:11px;
+	cursor:default;
+	overflow:hidden;
+}
+
+label
+{
+	cursor:pointer;
+}
+
+.content
+{
+	position:absolute;
+	left:0px;
+	top:120px;
+	right:0px;
+	bottom:0px;
+	visibility:hidden;
+	overflow:auto;
+}
+
+.dialog_container_1
+{
+	position:absolute;
+	left:0px;
+	top:90px;
+	right:0px;
+	bottom:0px;
+	visibility:hidden;
+	overflow:auto;
+	background-image:url(opacity.png);
+	cursor:not-allowed;
+}
+
+.dialog_container_2
+{
+	position:absolute;
+	left:0px;
+	top:100px;
+	right:0px;
+	bottom:0px;
+}
+
+.dialog_title
+{
+	margin-top:5px;
+	font-size:14px;
+	display:block;
+	text-align:center;
+}
+
+.dialog_table
+{
+	cursor:default;
+}
+
+.dialogcontent
+{
+	background-color:#E0E0E0;
+	cursor:default;
+}
+
+.progress
+{
+	width:16px;
+	height:16px;
+	background-image:url(progress.gif);
+	display:none;
+}
+
+.table_grid
+{
+	border-color:#DEDEDE;
+}
+
+tr.table_header
+{
+	background-image:url(table_row.png);
+	height:20px;
+	cursor:pointer;
+}
+
+table.menubar_button
+{
+	margin-left:3px;
+	margin-right:3px;
+	width:100px;
+	height:49px;
+	text-align:center;
+	cursor:pointer;
+}
+
+td.menubar_button
+{
+	padding:1px;
+}
+
+.tabbar_table
+{
+	position:relative;
+	top:-3px;
+}
+
+.tabbar_icon
+{
+	width:24px;
+	height:24px;
+	background-repeat:no-repeat;
+}
+
+.login_inputfield
+{
+	width:250px;
+}
+
+.cheatlist_edit_inputfield
+{
+	width:330px;
+}
+
+.teleporter_edit_inputfield
+{
+	width:300px;
+}
+
+.memorychanger_edit_inputfield
+{
+	width:150px;
+}
+
+.settings_fieldlabel
+{
+	text-align:right;
+}
+
+#login_title
+{
+	font-size:18px;
+	padding-bottom:15px;
+}
+
+#menubar_background
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	height:90px;
+	background-image:url(menubar_background.png);
+}
+
+#menubar
+{
+	position:absolute;
+	left:100px;
+	top:10px;
+	bottom:10px;
+}
+
+#tabbar
+{
+	position:absolute;
+	left:100px;
+	top:90px;
+	height:32px;
+}
+
+#dialog_teleporter
+{
+	right:600px;
+}
+
+#dialog_firststart
+{
+	top:0px;
+}

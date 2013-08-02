@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>ScriptParser</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+</head>
+
+<BODY bgColor=#ffffdf>
+<H1 align=center>ScriptParser</H1>
+<P align=left>Der ScriptParser der GTA San Andreas ToolBox kann selbst erstellte 
+Scripts ausführen. Die Syntax der Programmiersprache ist wie die SCM-Syntax von 
+GTA San Andreas. Sie funktioniert nicht wie eine normale Programmiersprache mit 
+bestimmten Befehlen wie zum Beispiel MessageBox() sondern mit Opcodes. Bei 
+Opcodes wird an jeden Anfang der Zeile ein Code geschrieben. Dieser besteht aus 
+4 Zeichen, die in Hexadezimal sind. Nach den 4 Zeichen kommt ein Doppelpunkt und 
+dann der erste Parameter der Funktion. Dieser ist oft der Rückgabewert der 
+Funktion. Nach dem Rückgabewert kommt der nächste Parameter. Es können für jede 
+Funktion maximal 100 Parameter + Rückgabewert verwendet werden. Also sind es 101 
+Parameter.</P>
+<P align=left>&nbsp;</P>
+<H2 align=left>Befehle</H2>
+<H3 align=left>Nachrichtenfenster</H3><PRE>Opcode: 0001</PRE><PRE>Parameter: Rückgabewert, Titel, Nachricht, Flags</PRE>
+<P>&nbsp;</P>
+<H3 align=left>Eingabefenster</H3><PRE>Opcode: 0002</PRE><PRE>Parameter: Rückgabewert, Titel, Nachricht, Standardtext</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3 align=left>Variablenüberprüfung</H3><PRE>Opcode: 0003</PRE><PRE>Parameter: Variable1, Typ, Variable2</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3 align=left>Label</H3><PRE>Opcode: 0004</PRE><PRE>Parameter: Name</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3 align=left>Teleporter</H3><PRE>Opcode: 0005</PRE><PRE>Parameter: x, y, z, Blickwinkel, Interior</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Wert speichern</H3><PRE>Opcode: 0006</PRE><PRE>Parameter: Name, Wert</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Fahrzeug spawnen</H3><PRE>Opcode: 0007</PRE><PRE>Parameter: VehicleID</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Speicheradresse ändern</H3><PRE>Opcode: 0008</PRE><PRE>Parameter: Adresse, Datentyp, Wert, Länge*, Leerzeichen*</PRE><PRE>*Nur bei Datentyp "STRING"</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Goto</H3><PRE>Opcode: 0009</PRE><PRE>Parameter: Name</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Programm ausführen</H3><PRE>Opcode: 000A</PRE><PRE>Parameter: Dateiname, Programmparameter</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Speicheradresse auslesen</H3><PRE>Opcode: 000B</PRE><PRE>Parameter: Rückgabewert, Adresse, Datentyp, Länge*</PRE>
+<P>*Nur bei Datentyp "STRING"</P>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Variable erstellen (ohne Zuweisen eines Werts)</H3><PRE>Opcode: 000C</PRE><PRE>Parameter: Variablenname</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Text ersetzen</H3><PRE>Opcode: 000D</PRE><PRE>Parameter: Rückgabewert, Text, Suchtext, Ersetztext</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Funktionsspeicheradresse aufrufen</H3><PRE>Opcode: 000E</PRE><PRE>Parameter: Rückgabewert, Adresse, Funktionsparameter</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Inhalt einer Datei in Variable speichern (String-Modus)</H3><PRE>Opcode: 000F</PRE><PRE>Parameter: Rückgabewert, Dateiname</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Inhalt einer Datei in Variable speichern (Memory-Modus)</H3><PRE>Opcode: 0010</PRE><PRE>Parameter: Rückgabewert, Dateiname</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Speicherbereich freigeben</H3><PRE>Opcode: 0011</PRE><PRE>Parameter: Speicheradresse</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Dateiauswahldialog anzeigen</H3><PRE>Opcode: 0012</PRE><PRE>Parameter: Rückgabewert, Typ, Titel, Standarddatei, Pattern, Standardpattern</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>In Datei schreiben</H3><PRE>Opcode: 0013</PRE><PRE>Parameter: Rückgabewert, Dateiname, Typ, Daten, Länge*</PRE>
+<P>*Nur bei Typ "DATA"</P>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Überprüfen, ob eine Datei vorhanden ist</H3><PRE>Opcode: 0014</PRE><PRE>Parameter: Rückgabewert, Dateiname</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Taste abfragen</H3><PRE>Opcode: 0015</PRE><PRE>Parameter: Rückgabewert, VK-Taste, Goto-Label*</PRE>
+<P>*Wenn angegeben, wird zu dieser Position gesprungen</P>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Warten (In Millisekunden)</H3><PRE>Opcode: 0016</PRE><PRE>Parameter: Zeit</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<H3>Zu Zeile springen</H3><PRE>Opcode: 0017</PRE><PRE>Parameter: Zeilennummer</PRE>
+<P><FONT size=1></FONT>&nbsp;</P>
+<P>&nbsp;</P>
+<P>Weitere Funktionen werden folgen.</P>
+<P>Hinweis: Jeder Parameter wird durch ein Tab getrennt. Für Beispielcodes 
+schaue dir die Seite "<A href="ScriptParser_Examples.htm">Beispiele</A>" an.</P></BODY>
+</html>

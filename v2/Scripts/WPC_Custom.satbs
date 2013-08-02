@@ -1,0 +1,6 @@
+0001: $Result$	WallpaperChanger	This script will change your desktop wallpaper.\nDo you want to change it?	MB_YESNO
+0003: $Result$	NOT	6	Quit
+0012: $File$	OPEN	Select a picture	Wallpaper.bmp	Bitmap|*.bmp	0
+0001: 	WallpaperChanger	Now look at your desktop. ;)
+0004: Quit
+0001: 	The end	This is the end of the script.

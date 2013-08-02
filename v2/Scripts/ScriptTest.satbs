@@ -1,0 +1,50 @@
+; set variables (Opcode 0006)
+0006: $X$	-738.969971
+0006: $Y$	485.899994
+0006: $Z$	1390.890015
+0006: $Int$	1
+0006: $Gravity$	0.001
+0006: ROFL	Value
+0006: AHH	ROFL
+
+; main script
+0002: $FirstName$	ScriptTest	Hello! Input you first name.	Your first name.
+000C: $FirstName$
+0003: $FirstName$	EQUAL		WillQuit
+0002: $LastName$	ScriptTest	Hello $Firstname$! What´s your last name?	Your last name.
+000C: $LastName$
+0003: $LastName$	EQUAL		WillQuit
+0001: $WillTest$	Welcome!	Ok, $Firstname$ $LastName$.\nNow we want to test the complete new GTA San Andreas ToolBox ScriptParser!\n\nDo you want to test it?	MB_ICONQUESTION|MB_YESNO
+0003: $WillTest$	NOT	6	WillQuit
+0001: 	Teleporter	Now, first we want to test the teleporter.\nIt´s very easy to use it. Just use the opcode 0005 and write the coordinates (x,y,z,angle,interior) to it.
+0001: $Goto$	Teleporter	We teleport us to the following place:\n\nX: $X$\nY: $Y$\nZ: $Z$\nAngle: (Not used yet)\nInterior: $Int$\n\nAre you sure to teleport to this place?	MB_ICONQUESTION|MB_YESNO
+0003: $Goto$	NOT	6	SpawnVehicle
+0005: $X$	$Y$	$Z$	0	$Int$
+0001: 	Teleporter	Ok, now we are in Liberty City.
+0004: SpawnVehicle
+0001: 	SpawnVehicle	The next step is the vehiclespawner.\nYou can use it with opcode 0007 and the VehicleID as parameter.\n\nExample: 0007: 468
+0001: Spawn$	SpawnVehicle	Do you want to spawn a Bullet?	MB_YESNO
+0003: Spawn$	NOT	6	SetGravity
+0007: 541
+0004: SetGravity
+0001: 	Gravity	Now it would be funny. We would set the gravity to $Gravity$\n\nWe make it with opcode 0008.\nOpcode 0008 is for changing any memoryaddress of GTA San Andreas.
+0001: $SetGravity$	Gravity	Do you want to set the gravity to $Gravity$?	MB_ICONQUESTION|MB_YESNO
+0003: $SetGravity$	NOT	6	Replacing
+0008: 0x863984	FLOAT	$Gravity$
+0001: 	Gravity	Now the gravity is set to $Gravity$.\nHave fun while playing GTA San Andreas! ;)	MB_ICONINFORMATION
+0004: Replacing
+0001: 	ReplaceString	Now we want to replace strings. It´s very easy. Just use opcode 000D.
+0002: $1$	ReplaceString	Input anything.	Woohoo this is a string.
+0002: $2$	ReplaceString	Input another text.	Your other text: $1$
+0002: $3$	ReplaceString	Input any.	> $2$ <
+0001: 	ReplaceString	You see, it´s very easy.\nI know all what you had inputed!\n\nFirst: $1$\nSecond: $2$\nThird: $3$	MB_ICONINFORMATION
+0001: 	ReplaceString	The next is the real replacing. We write a text and replace something of it.\nWe use your first string.\nI mean that: $1$
+0002: $Replace$	ReplaceString	Input the string you want to replace.	A part of your string.
+0002: $New$	ReplaceString	Now write the new string.	The new part.
+000D: $4$	$1$	$Replace$	$New$
+0001: 	ReplaceString	We are ready!\nNow you have the following string:\n\n$4$	MB_ICONINFORMATION
+0001: 	End of the script	This is the end of the script.	MB_ICONWARNING
+0009: Quit
+0004: WillQuit
+0001: 	Don´t test	:(
+0004: Quit

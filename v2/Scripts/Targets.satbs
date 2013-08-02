@@ -1,0 +1,22 @@
+0018: $Window$	100	100	500	300	Targets	MINIMIZEGADGET
+001B: TEXT	1	10	10	480	20
+001D: $Repeat$
+0004: Loop
+0016: 5
+
+0022: 
+000B: $PED$	0xB6F5F0	LONG
+0003: $PED$	NOT	$OldPED$	SetPED
+
+001A: $Event$
+0003: $Event$	EQUAL	16	Quit
+0017: $Repeat$
+
+0004: SetPED
+0006: $OldPED$	$PED$
+0023: 1	PED: $PED$
+0017: $Repeat$
+
+0004: Quit
+0001: $Quit$	Targets	Quit now?	MB_YESNO|MB_ICONWARNING
+0003: $Quit$	NOT	6	Loop

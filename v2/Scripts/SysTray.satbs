@@ -1,0 +1,27 @@
+0006: $Event_Menu$	13101
+0006: $Event_SysTray$	13102
+
+002B: $Image$	Tray.ico
+002C: $IsImage$	$Image$
+0003: $IsImage$	NOT	0	Tray
+0001: 	Error	The image was not found!	MB_ICONERROR
+0009: End
+0004: Tray
+0018: $Window$	100	100	500	300	Tray	INVISIBLE
+002D: $PopupMenu$	POPUP
+0030: 1	Quit
+002A: $Tray$	$Window$	$Image$
+0004: Loop
+001A: $Event$
+0016: 5
+0003: $Event$	EQUAL	$Event_Menu$	Event_Menu
+0003: $Event$	EQUAL	$Event_SysTray$	Event_SysTray
+0009: Loop
+0004: Event_Menu
+001E: $MenuItem$	MENU
+0003: $MenuItem$	EQUAL	1	End
+0009: Loop
+0004: Event_SysTray
+002F: $PopupMenu$	$Window$
+0009: Loop
+0004: End

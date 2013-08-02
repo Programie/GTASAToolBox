@@ -1,0 +1,57 @@
+0x969134 - Increase Wanted Level 2 Stars 
+0x969135 - Clear Wanted Level 
+0x969138 - Overcast Weather  
+0x96913C - Faster Gameplay 
+0x96913D - Slower Gameplay 
+0x96913F - Have Bounty on Head 
+0x969141 - Spawn Rhino (Not Tested!) 
+0x969142 - Spawn Bloodring Banger (Not Tested!) 
+0x969143 - Spawn Rancher (Not Tested!) 
+0x969144 - Spawn Racecar A (Not Tested!) 
+0x969145 - Spawn Racecar B (Not Tested!) 
+0x969146 - Spawn Romero (Not Tested!) 
+0x969147 - Spawn Stretch (Not Tested!) 
+0x96914A - Blow up All Cars   
+0x96914D - Suicide
+0x969154 - CJ is Fat 
+0x969155 - Max Muscle 
+0x969156 - CJ is Skinny 
+0x969157 - Elvis Everywhere 
+0x969158 - Peds attack with rockets 
+0x969159 - Beach Theme 
+0x96915A - Gang Members everywhere 
+0x96915B - Gangs control the streets 
+0x96915C - Ninja Theme 
+0x96915D - Slut Magnet 
+0x96915E - Traffic is Cheap Cars 
+0x96915F - Traffic is Fast Cars 
+0x969162 - Spawn Hydra (Not Tested!) 
+0x969163 - Spawn Vortex Hovercraft (Not Tested!) 
+0x969167 - Always Midnight 
+0x969168 - Stop Game Clock - Orange Sky 
+0x969169 - Thunderstorm  
+0x96916F - Get Parachute 
+0x969170 - Get Jetpack 
+0x969171 - Never Wanted 
+0x969172 - Six Star Wanted Level 
+0x969173 - Mega Punch 
+0x969176 - Funhouse Theme 
+0x969177 - Slower Gameplay 
+0x96917A - Decreased Traffic 
+0x96917B - Traffic is Country vehicles 
+0x96917C - Recruit Anyone (9mm) 
+0x96917D - Country Theme  
+0x969181 - Max Stamina 
+0x969183 - Hitman in All Weapons 
+0x969184 - Spawn Hunter (Not Tested!) 
+0x969185 - Spawn Quad (Not Tested!) 
+0x969186 - Spawn Tanker Truck (Not Tested!) 
+0x969187 - Spawn Dozer (Not Tested!) 
+0x969188 - Spawn Stunt Plane (Not Tested!) 
+0x969189 - Spawn Monster (Not Tested!)
+0xBAA410 - Current Weapon (Readonly)
+
+96913E Passanten-Aufstand
+96915B Kein Verkehr
+96916C höhere Sprünge
+B7CEE4 Ewig Rennen

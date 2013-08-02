@@ -1,0 +1,35 @@
+<xml>
+ <level name="Cheatlist">
+  <level name="Export">
+   <item>HTML (Webpage)</item>
+   <item>XML (Excel-Tabble)</item>
+  </level>
+  <item>View like in Windows-Explorer in groupview</item>
+ </level>
+ <level name="IMG Editor">
+  <item>Save IMG-Archive</item>
+  <item>Replace file(s)</item>
+  <item>Delete file(s)</item>
+  <item>Rename file(s)</item>
+ </level>
+ <item>Gametweaks (WIP)</item>
+ <level name="Edit vehicles and weapons">
+  <item>Read Vehicledata from vehicles.ide</item>
+  <item>Read weaponsdata from weapon.dat</item>
+  <item>Edit handling data</item>
+ </level>
+ <level name="About">
+  <item>Add credits (WIP)</item>
+ </level>
+ <item>Statistic</item>
+ <level name="Savegameeditor">
+  <item>Savepointplace</item>
+  <item>Statistic (Money, cheated state, life, ...)</item>
+  <item>Saved vehicles</item>
+  <item>Passed missions</item>
+ </level>
+ <level name="WebServer">
+  <item>Teleporter</item>
+  <item>Informations</item>
+ </level>
+</xml>

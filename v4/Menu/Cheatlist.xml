@@ -1,0 +1,13 @@
+<menu>
+	<class name="cheatlist">
+		<menuitem name="edit" default="1">
+			<text language="en">Edit</text>
+			<text language="de">Bearbeiten</text>
+		</menuitem>
+			<menubar />
+		<menuitem name="remove">
+			<text language="en">Remove</text>
+			<text language="de">Entfernen</text>
+		</menuitem>
+	</class>
+</menu>

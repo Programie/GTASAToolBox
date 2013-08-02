@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<cheatinfo>
+	<cheat name="ActivateRadio" isinternal="1">
+		<description language="en">Activate radio in current vehicle</description>
+		<description language="de">Radio im aktuellen Fahrzeug aktivieren</description>
+	</cheat>
+	<cheat name="AEDUMNV">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="AEZAKMI">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="AFSNMSMW">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="AGBDLCID">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="AJLOJYQY">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="AKJJYGLC">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="AMOMHRER">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="ASNAEB">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="AutoAim" isinternal="1">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="BAGUVIX">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="BigBang" isinternal="1">
+		<description language="en">Explode all vehicles excluding the own</description>
+		<description language="de">Alle Fahrzeuge mit Ausnahme des eigenem explodieren</description>
+	</cheat>
+	<cheat name="BSXSGGC">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="ChangeCarColor" isinternal="1">
+		<description language="en">Change car color of your current vehicle</description>
+		<description language="de">Fahrzeugefarbe deines aktuellen Fahrzeugs ändern</description>
+	</cheat>
+	<cheat name="ClearCheatedState" isinternal="1">
+		<description language="en">Reset your 'cheated' state (Amount of used cheats to 0, ...)</description>
+		<description language="de">Deinen 'Cheat'-Status zurücksetzen (Anzahl der verwendeten Cheats auf 0, ...)</description>
+	</cheat>
+	<cheat name="COXEFGU">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="CVWKXAM">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="DisableCheats" isinternal="1">
+		<description language="en">Disabled all GTA San Andreas cheats</description>
+		<description language="de">Alle GTA San Andreas cheats deaktivieren</description>
+	</cheat>
+	<cheat name="EEGCYXT">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="EHIBXQS">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="EngineState" isinternal="1">
+		<description language="en">Turn on/off the engine of your current vehicle</description>
+		<description language="de">Motor des aktuellen Fahrzeugs an-/ausschalten</description>
+	</cheat>
+	<cheat name="FlipVehicle" isinternal="1">
+		<description language="en">Flip you current vehicle (Z-Axis)</description>
+		<description language="de">Aktuelles Fahrzeug umdrehen (Z-Achse)</description>
+	</cheat>
+	<cheat name="FOOOXFT">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="FreezeGame" isinternal="1">
+		<description language="en">Freeze the game play</description>
+		<description language="de">Spielgeschehen anhalten</description>
+	</cheat>
+	<cheat name="FreezeTaxiTimer" isinternal="1">
+		<description language="en">Freeze the timer for taxi missions</description>
+		<description language="de">Zeit bei Taximissionen einfrieren</description>
+	</cheat>
+	<cheat name="GetLastVehicle" isinternal="1">
+		<description language="en">Teleport your last vehicle to your current position</description>
+		<description language="de">Dein letztes Fahrzeug an deine aktuelle Position teleportieren</description>
+	</cheat>
+	<cheat name="GotoLastVehicle" isinternal="1">
+		<description language="en">Teleport to your last vehicle</description>
+		<description language="de">Dich zu deinem letzten Fahrzeug teleportieren</description>
+	</cheat>
+	<cheat name="GotoPosition" isinternal="1">
+		<description language="en"></description>
+		<parameters language="en">
+			<parameter name="X">Position X to teleport to</parameter>
+			<parameter name="Y">Position Y to teleport to</parameter>
+			<parameter name="Z">Position Z to teleport to</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="X">Position X der Zielposition</parameter>
+			<parameter name="Y">Position Y der Zielposition</parameter>
+			<parameter name="Z">Position Z der Zielposition</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="GotoTargetPlace" isinternal="1">
+		<description language="en">Teleport to the place marked on the in-game map</description>
+		<description language="de">Teleportiere dich zu dem Ort welchen du auf der In-Game Karte markiert hast</description>
+	</cheat>
+	<cheat name="Gravity" isinternal="1">
+		<description language="en">Change the gravity</description>
+		<description language="de">Gravitation ändern</description>
+		<parameters language="en">
+			<parameter name="Gravity">New gravity value (Default: 0.008)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Gravitation">Neuer Gravitationswert (Standard: 0.008)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="HESOYAM">
+		<description language="en">100% Health, 100% Armor, +$250.000</description>
+		<description language="de">100% Leben, 100% Rüstung, +$250.000</description>
+	</cheat>
+	<cheat name="HideGame" isinternal="1">
+		<description language="en">Hide GTA San Andreas and show your Windows desktop</description>
+		<description language="de">GTA San Andreas verstecken und dein Windows Desktop anzeigen</description>
+	</cheat>
+	<cheat name="HooverCar" isinternal="1">
+		<description language="en">All your vehicles can swim</description>
+		<description language="de">Alle deine Fahrzeuge können schwimmen</description>
+	</cheat>
+	<cheat name="InfiniteHealth" isinternal="1">
+		<description language="en">Infinite health</description>
+		<description language="de">Endlos Gesundheit</description>
+	</cheat>
+	<cheat name="InfiniteHeight" isinternal="1">
+		<description language="en">Infinite height (Jetpack, Hydra, ...)</description>
+		<description language="de">Endlos hoch fliegen (Jetpack, Hydra, ...)</description>
+	</cheat>
+	<cheat name="InfiniteNitro" isinternal="1">
+		<description language="en">Infinite nitro for all your vehicles</description>
+		<description language="de">Endlos Nitro für alle deine Fahrzeuge</description>
+	</cheat>
+	<cheat name="IOWDLAC">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="JCNRUAD">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="JHJOECW">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="JQNTDMH">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="JUMPJET">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="KANGAROO">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="KGGGDKP">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="KJKSZPJ">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="LastPlace" isinternal="1">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="LastSpawnedVehicles" isinternal="1">
+		<description language="en">Display your last spawned vehicles</description>
+		<description language="de">Zuletzt gespawnte Fahrzeuge auflisten</description>
+	</cheat>
+	<cheat name="LifeInWater" isinternal="1">
+		<description language="en">Walk under the water</description>
+		<description language="de">Unter wasser laufen</description>
+	</cheat>
+	<cheat name="LIYOAAY">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="LLQPFBN">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="LoadInterior" isinternal="1">
+		<description language="en">Load an interior</description>
+		<description language="de">Interior laden</description>
+	</cheat>
+	<cheat name="LoadPlace" isinternal="1">
+		<description language="en">Teleport to a saved place</description>
+		<description language="de">Zu einem gespeicherten Ort teleportieren</description>
+	</cheat>
+	<cheat name="LoadVehicle" isinternal="1">
+		<description language="en">Spawn a saved vehicle</description>
+		<description language="de">Gespeichertes Fahrzeug spawnen</description>
+	</cheat>
+	<cheat name="LockVehicle" isinternal="1">
+		<description language="en">Lock your current vehicle</description>
+		<description language="de">Aktuelles Fahrzeug abschließen</description>
+	</cheat>
+	<cheat name="LXGIWYL">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="MakeScreenshot" isinternal="1">
+		<description language="en">Make a screenshot of your current screen and save it to a file</description>
+		<description language="de">Screenshot deines aktuellen Bildschirms erstellen und in eine Datei speichern</description>
+	</cheat>
+	<cheat name="MooSize" isinternal="1">
+		<description language="en">Change moon size</description>
+		<description language="de">Mondgröße ändern</description>
+		<parameters language="en">
+			<parameter name="Size">New moon size</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Größe">Neue Mondgröße</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="OGXSDAG">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="OHDUDE">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="OIUQDMW">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="OSRBLHH">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="PGGOMOY">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="PPGWJHT">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="RandomVehicle" isinternal="1">
+		<description language="en">Spawn a random vehicle</description>
+		<description language="de">Zufälliges Fahrzeug spawnen</description>
+	</cheat>
+	<cheat name="RandomWeather" isinternal="1">
+		<description language="en">Change to a random weather</description>
+		<description language="de">Zu ein zufälliges Wetter wechseln</description>
+	</cheat>
+	<cheat name="RIPAZHA">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="ROCKETMAN">
+		<description language="en">Spawn a jet pack</description>
+		<description language="de">Jetpack spawnen</description>
+	</cheat>
+	<cheat name="SavePlace" isinternal="1">
+		<description language="en">Save current place</description>
+		<description language="de">Aktuellen Ort speichern</description>
+		<parameters language="en">
+			<parameter name="Slot">Slot number (1 - 10)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Slot">Slotnummer (1 - 10)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="SaveVehicle" isinternal="1">
+		<description language="en">Save current vehicle</description>
+		<description language="de">Aktuelles Fahrzeug speichern</description>
+		<parameters language="en">
+			<parameter name="Slot">Slot number (1 - 10)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Slot">Slotnummer (1 - 10)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="ScrollVehicle" isinternal="1">
+		<description language="en">Scroll though all vehicles</description>
+		<description language="de">Durch all Fahrzeuge scrollen</description>
+	</cheat>
+	<cheat name="SetCash" isinternal="1">
+		<description language="en">Change current cash to a new value</description>
+		<description language="de">Aktuelles Geld auf einen neuen Wert ändern</description>
+		<parameters language="en">
+			<parameter name="Amount">Amount of cash (0 - 999999999)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Menge">Menge des Geldes (0 - 999999999)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="SetTime" isinternal="1">
+		<description language="en">Change current game time</description>
+		<description language="de">Aktuelle Spieluhrzeit ändern</description>
+		<parameters language="en">
+			<parameter name="Time">Time in format 'hhmm' (Example: 0930 for 09:30)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Zeit">Zeit im Format 'hhmm' (Beispiel: 0930 für 09:30)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="SetWantedLevel" isinternal="1">
+		<description language="en"></description>
+		<parameters language="en">
+			<parameter name="Level">Value of new wanted level (0 - 6)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Level">Wert des neuen Gesuchtlevels (0 - 6)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="SetWeather" isinternal="1">
+		<description language="en"></description>
+		<parameters language="en">
+			<parameter name="Weather ID">ID of the weather (0 - 46)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Wetter ID">ID des Wetters (0 - 46)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="ShowCurrentTime" isinternal="1">
+		<description language="en">Synchronize game clock with the computer clock</description>
+		<description language="de">Spieluhrzeit mit der Computeruhr synchronisieren</description>
+	</cheat>
+	<cheat name="ShowHeightInfo" isinternal="1">
+		<description language="en">Show informations about your players current height</description>
+		<description language="de">Informationen über die aktuelle höhe deines Spielers anzeigen</description>
+	</cheat>
+	<cheat name="ShowMoneyNow" isinternal="1">
+		<description language="en">Set money counter to the current money amount</description>
+		<description language="de">Geldzähler auf den aktuellen Geldbetrag setzen</description>
+	</cheat>
+	<cheat name="ShowVehicleInfo" isinternal="1">
+		<description language="en">Show informations about your current vehicle (Speed, Damanage, ...)</description>
+		<description language="de">Informationen über dein aktuelles Fahrzeug anzeigen (Geschwindigkeit, Schaden, ...)</description>
+	</cheat>
+	<cheat name="SpawnVehicle" isinternal="1">
+		<description language="en">Spawn a vehicle</description>
+		<description language="de">Ein Fahrzeug spawnen</description>
+		<parameters language="en">
+			<parameter name="Model ID">Model ID of the new vehicle (400 - 611)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Model ID">Model ID des neuen Fahrzeugs (400 - 611)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="SpawnWeapon" isinternal="1">
+		<description language="en">Spawn a weapon</description>
+		<description language="de">Eine Waffe spawnen</description>
+		<parameters language="en">
+			<parameter name="Weapon ID">Weapon ID of the new weapon (0 - 46)</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Weapon ID">Waffen ID der neuen Waffe (0 - 46)</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="StateOfEmergency">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="SZCMAWO">
+		<description language="en">Suicide</description>
+		<description language="de">Selbstmord</description>
+	</cheat>
+	<cheat name="ToggleWeaponSlots" isinternal="1">
+		<description language="en">Toggle two weapon slots</description>
+		<description language="de">Zwei Waffenslots tauschen</description>
+		<parameters language="en">
+			<parameter name="Slot 1">Weapon slot number of the first weapon</parameter>
+			<parameter name="Slot 2">Weapon slot number of the second weapon</parameter>
+		</parameters>
+		<parameters language="de">
+			<parameter name="Slot 1">Waffenslotnummer der ersten Waffe</parameter>
+			<parameter name="Slot 2">Waffenslotnummer der zweiten Waffe</parameter>
+		</parameters>
+	</cheat>
+	<cheat name="URKQSPK">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="UZUMYMW">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="WANRLTW">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="XICWMD">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="YLTEICZ">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="YSOHNUL">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="ZEIIVG">
+		<description language="en"></description>
+	</cheat>
+	<cheat name="ZSOXFSQ">
+		<description language="en"></description>
+	</cheat>
+</cheatinfo>

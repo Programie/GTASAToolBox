@@ -1,0 +1,42 @@
+<menu>
+	<class name="testmenu1">
+		<menuitem name="item0_1">
+			<text>Item 1</text>
+		</menuitem>
+		<menuitem name="item0_2">
+			<text>Item 2</text>
+		</menuitem>
+		<menuitem name="item0_3" default="1">
+			<text>Item 3</text>
+		</menuitem>
+		<menuitem name="item0_4">
+			<text>Item 4</text>
+		</menuitem>
+		<menuitem name="item0_5">
+			<text>Item 5</text>
+		</menuitem>
+			<menubar />
+		<submenu>
+			<title>Submenu 1</title>
+			<menuitem name="item1_1">
+				<text>Item 1</text>
+			</menuitem>
+			<menuitem name="item1_2">
+				<text>Item 2</text>
+			</menuitem>
+			<menuitem name="item1_3">
+				<text>Item 3</text>
+			</menuitem>
+			<menuitem name="item1_4">
+				<text>Item 4</text>
+			</menuitem>
+			<menuitem name="item1_5">
+				<text>Item 5</text>
+			</menuitem>
+		</submenu>
+			<menubar />
+		<menuitem name="item0_6">
+			<text>Item 6</text>
+		</menuitem>
+	</class>
+</menu>

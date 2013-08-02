@@ -1,0 +1,42 @@
+ACTIVATERADIO[VehicleID]|Ist VehicleID eine gültige Fahrzeug-ID (=>400 und <=611) wird bei dem angegebenen Fahrzeug die Radiofunktion aktiviert bzw. deaktiviert. Wird die VehicleID nicht angegeben oder ist ungültig, wird die Fahrzeug-ID des aktuellen Fahrzeugs (Wenn verfügbar) verwendet.
+BIGBANG|Alle Fahrzeuge bis auf das Eigene (Wenn verfügbar) zerstören. [Noch nicht verfügbar]
+CHANGECARCOLOR|Farbe des aktuellen Autos ändern. Die Farben sind die selben wie beim Spawnen.
+CLEARCHEATEDSTATE|Den "gecheatet"-Status zurücksetzen. Vor dem Speichern kommen keine Cheatwarnungen mehr.
+DISABLECHEATS|Alle GTA San Andreas-Cheats deaktivieren (Nur die Direkteingabe)
+ENGINESTATE|Motor des aktuellen Fahrzeugs an- bzw. ausschalten.
+FLIPVEHICLE|Aktuelles Fahrzeug um 180° drehen.
+FREEZETAXITIMER|Taximissionszeit einfriehren.
+GETLASTVEHICLE|Das letzte Fahrzeug zur aktuellen Spielposition teleportieren.
+GOTOLASTVEHICLE|Zum letzten Fahrzeug teleportieren.
+GOTOPOSITION[x,y,z]|Zur Position "x,y,z" teleportieren.
+GOTOTARGETPLACE|Zum markierten Zielort der internen Karte von GTA San Andreas teleportieren.
+GRAVITY[Wert]|Gravitation (Schwerkraft) in GTA San Andreas auf den angegebenen Wert setzen. (GRAVITY1 = Gravitation auf 1.0; GRAVITY0.05 = Gravitation auf 0.05; GRAVITY-0.1 = Gravitation auf -0.1)
+HIDEGAME|GTA San Andreas minimieren und verstecken. Zum Wiederherstellen auf das Trayicon der GTA San Andreas ToolBox GUI klicken und "GTA San Andreas wiederherstellen" auswählen.
+HOOVERCAR|Fahrzeuge können auf Wasser fahren.
+INFINITEHEALTH|Endlos leben aktivieren bzw. deaktivieren.
+INFINITEHEIGHT|Endlos hoch fliegen aktivieren bzw. deaktivieren.
+INFINITENITRO|Endlos Nitro aktivieren bzw. deaktivieren.
+LASTPLACE|Letzter Teleportvorgang rückgängig machen.
+LIFEINWATER|Unter Wasser laufen/fahren.
+LOADINTERIOR[ID]|Den Interior "ID" laden. ID muss ein Wert von 0 bis 18 sein. Interior 0 ist der Standard-Interior.
+LOADPLACE[ID]|Den Ort "ID" laden. ID muss ein Wert von 1 bis 10 sein.
+LOADVEHICLE[ID]|Das Fahrzeug "ID" laden. ID muss ein Wert von 1 bis 10 sein.
+LOCKVEHICLE|Das aktuelle Fahrzeug abschließen bzw. aufschließen.
+MAKESCREENSHOT|Bildschirmfoto erstellen.
+MOONSIZE[Faktor]|Die Mondgröße auf den angegebenen Faktor ändern.
+RANDOMVEHICLE|Ein zufälliges Fahrzeug spawnen.
+RANDOMWEATHER|Das aktuelle Wetter auf ein zufälliges Wetter ändern.
+SAVEPLACE[ID]|Den aktuellen Ort auf den Platz "ID" speichern. ID muss ein Wert von 1 bis 10 sein.
+SAVEVEHICLE[ID]|Das aktuelle Fahrzeug auf den Platz "ID" speichern. ID muss ein Wert von 1 bis 10 sein.
+SCROLLVEHICLE|Spawnbare Fahrzeuge durchscrollen.
+SETCASH[Wert]|Aktuelles Guthaben von CJ auf den angegebenen Wert setzen.
+SETTIME[hhmm]|Aktuelle Uhrzeit auf die angegebene Zeit ändern.
+SETWANTEDLEVEL[Level]|Das aktuelle Fandungslevel auf den Wert "Level" ändern. Level muss ein Wert von 1 bis 6 sein.
+SETWEATHER[ID]|Aktuelles Wetter auf das angegebene Wetter ändern. ID muss ein Wert von 0 bis 45 sein.
+SHOWCURRENTTIME|Uhr in GTA San Andreas mit der Uhr des Computers synchronisieren.
+SHOWHEIGHTINFO|Aktuelle Höhe von CJ anzeigen.
+SHOWMONEYNOW|Geldzähler auf den aktuellen Geldbetrag setzen.
+SHOWVEHICLEINFO|Fahrzeuginformationen anzeigen (Geschwindigkeit und Schaden).
+SPAWNVEHICLE[VehicleID]|Das Fahrzeug mit der Nummer "VehicleID" spawnen. VehicleID muss ein Wert von 400 bis 611 sein. Wird VehicleID nicht angegeben, wird das erweiterte Spawnen von Fahrzeugen aktiviert. In diesem Modus kannst du mit den Nummerntasten eine Fahrzeugnummer (VehicleID) eingeben und mit der Sondertaste "Set" das Fahrzeug spawnen.
+SPAWNWEAPON[Weapon]|Die Waffe mit der Nummer "Weapon" spawnen. Weapon muss ein Wert von 0 bis 46 sein.
+TIMER[hhmm]|Den Timer auf die angegebene Uhrzeit einstellen. Diese Uhrzeit ist abhängig von der Computerzeit. Nach dem Ablauf des Timers wird ein Signal ausgegeben und der Timer wird deaktiviert.

@@ -1,0 +1,9 @@
+<xml version="1.0">
+<item file="gui">GUI</item>
+<item file="cheatprocessor">CheatProcessor</item>
+<item file="memoryserver">MemoryServer</item>
+<item file="webserver">WebServer</item>
+<item file="gta">GTA San Andreas</item>
+<menubar/>
+<item file="quit">%Language_Quit%</item>
+</xml>
